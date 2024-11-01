@@ -1,0 +1,11 @@
+@mixin text-style($fw, $fz, $lh, $color, $ff) {
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $color;
+  font-family: $ff;
+}
+@mixin dfcenter{
+  display: flex;
+  align-items: center;
+}

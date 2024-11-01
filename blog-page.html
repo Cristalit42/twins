@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWINS </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Syne:wght@400..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <div class="overlay overlay--hidden overlay--burger">
+      <div class="burger">
+        <a class="burger__x" href="#">
+          <img class="burger__x-icon" src="images/icons/btn-x.svg" alt="close">
+        </a>
+        <nav class="burger__nav">
+          <ul class="burger__nav-list">
+            <li class="burger__nav-item" data-menu="menu-1">
+              <a class="burger__nav-link burger__nav-link--additional" href="#">
+                Главная
+                <img class="burger__link-icon" src="images/icons/arrow-right-mini.svg" alt="arrow-icon">
+              </a>
+              <ul id="menu-1-a" class="burger__sub-menu">
+                <li>
+                  <a href="#">Главная</a>
+                </li>
+                <li>
+                  <a href="#">Акции</a>
+                </li>
+                <li>
+                  <a href="#">О бренде</a>
+                </li>
+                <li>
+                  <a href="#">Услуги</a>
+                </li>
+                <li>
+                  <a href="#">Продукция</a>
+                </li>
+                <li>
+                  <a href="#">Обучение</a>
+                </li>
+                <li>
+                  <a href="#">Новостной блог</a>
+                </li>
+              </ul>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="stock-page.html">Акции</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="brand-page.html">О бренде</a>
+            </li>
+            <li class="burger__nav-item" data-menu="menu-2">
+              <a class="burger__nav-link burger__nav-link--additional" href="#">
+                Услуги
+                <img class="burger__link-icon" src="images/icons/arrow-right-mini.svg" alt="arrow-icon">
+              </a>
+              <ul id="menu-2-a" class="burger__sub-menu">
+                <li>
+                  <a href="#">Маникюр/педикюр</a>
+                </li>
+                <li>
+                  <a href="#">Макияж</a>
+                </li>
+                <li>
+                  <a href="#">Волосы</a>
+                </li>
+                <li>
+                  <a href="#">Оформление бровей</a>
+                </li>
+                <li>
+                  <a href="#">Наращивание ресниц</a>
+                </li>
+                <li>
+                  <a href="#">Макияж и укладка</a>
+                </li>
+                <li>
+                  <a href="#">Косметология</a>
+                </li>
+                <li>
+                  <a href="#">Депиляция</a>
+                </li>
+                <li>
+                  <a href="#">Перманентный макияж</a>
+                </li>
+              </ul>
+            </li>
+            <li class="burger__nav-item" data-menu="menu-3">
+              <a class="burger__nav-link burger__nav-link--additional" href="#">
+                Продукция
+                <img class="burger__link-icon" src="images/icons/arrow-right-mini.svg" alt="arrow-icon">
+              </a>
+              <ul id="menu-3-a" class="burger__sub-menu">
+                <li>
+                  <a href="#">Вся продукция</a>
+                </li>
+                <li>
+                  <a href="#">SALE</a>
+                </li>
+                <li>
+                  <a href="#">Новинки</a>
+                </li>
+                <li>
+                  <a href="#">Хиты продаж</a>
+                </li>
+                <li>
+                  <a href="#">Для волос</a>
+                </li>
+                <li>
+                  <a href="#">Для лица</a>
+                </li>
+                <li>
+                  <a href="#">Для тела</a>
+                </li>
+              </ul>
+            </li>
+            <li class="burger__nav-item" data-menu="menu-4">
+              <a class="burger__nav-link burger__nav-link--additional" href="#">
+                Обучение
+                <img class="burger__link-icon" src="images/icons/arrow-right-mini.svg" alt="arrow-icon">
+              </a>
+              <ul id="menu-4-a" class="burger__sub-menu">
+                <li>
+                  <a href="#">Макияж для себя</a>
+                </li>
+                <li>
+                  <a href="#">Бровист с нуля до PRO</a>
+                </li>
+                <li>
+                  <a href="#">Визажист с нуля до PRO</a>
+                </li>
+              </ul>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="blog-page.html">Новостной блог</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="certificate-page.html">Сертификаты</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="contacts-page.html">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="burger burger--additional" id="burger-sub">
+        <nav class="burger__nav" id="menu-1-b">
+          <ul class="burger__nav-list">
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="/">Главная</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#stock">Акции</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#about">О бренде</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#price">Услуги</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#products">Продукция</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#education">Обучение</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#news">Новостной блог</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#certificate">Сертификаты</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="#adress">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="burger__nav" id="menu-2-b">
+          <ul class="burger__nav-list">
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Маникюр/педикюр</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Макияж</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Волосы</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Оформление бровей</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Наращивание ресниц</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Макияж и укладка</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Косметология</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Депиляция</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="service-page.html">Перманентный макияж</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="burger__nav" id="menu-3-b">
+          <ul class="burger__nav-list">
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Вся продукция</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">SALE</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Новинки</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Хиты продаж</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Для волос</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Для лица</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="catalog-page.html">Для тела</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="burger__nav" id="menu-4-b">
+          <ul class="burger__nav-list">
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="education-page.html">Макияж для себя</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="education-page.html">Бровист с нуля до PRO</a>
+            </li>
+            <li class="burger__nav-item">
+              <a class="burger__nav-link" href="education-page.html">Визажист с нуля до PRO</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="overlay overlay--hidden overlay--sale">
+      <div class="sale__pop">
+        <div class="sale__img-box">
+          <img class="sale__img" src="images/pop-ups/1.jpg" alt="image">
+        </div>
+        <div class="sale__content">
+          <a class="sale__btn-x" href="#">
+            <img class="sale__btn-icon" src="images/icons/btn-x.svg" alt="close">
+            <img class="sale__btn-icon sale__btn-icon--mob" src="images/icons/btn-x--white.svg" alt="close">
+          </a>
+          <h2 class="sale__title">
+            Скидка на маникюр 10%
+          </h2>
+          <p class="sale__text">
+            Только сегодня по промокоду скидка 10% <br>
+            на маникюр с покрытием, промокод придёт на почту, <br>
+            назови его администратору или укажи при записи на услугу
+          </p>
+          <form class="sale__form">
+            <div class="sale__label-wrapper">
+              <label class="sale__label sale__label--first">
+                <input class="sale__input" type="email" placeholder="Ваш E-mail">
+              </label>
+              <label class="sale__label">
+                <button class="sale__submit" type="submit">
+                  Отправить
+                </button>
+              </label>
+            </div>
+            <p class="sale__form-text">
+              Нажимая кнопку “Отправить” Вы соглашаетесь <br>
+              с <a href="#">политикой конфиденциальности</a> и даёте разрешение на <a href="#">обработку персональных
+                данных</a>
+            </p>
+          </form>
+
+        </div>
+      </div>
+    </div>
+    <div class="cookie cookie--desctop cookie--hidden">
+      <div class="cookie__img-box">
+        <img class="cookie__img" src="images/pop-ups/2.svg" alt="cookie">
+      </div>
+      <div class="cookie__content">
+        <p class="cookie__content-text">
+          Мы заботимся о ваших данных и используем файлы cookie. Используя этот сайт, вы принимаете политику
+          использования файлов cookie. <a href="#">Узнать больше</a>
+        </p>
+        <a class="cookie__content-btn" href="#">
+          Принять
+        </a>
+      </div>
+    </div>
+    <div class="overlay overlay--hidden overlay__cookie">
+      <div class="cookie ">
+        <div class="cookie__img-box">
+          <img class="cookie__img" src="images/pop-ups/2.svg" alt="cookie">
+        </div>
+        <div class="cookie__content">
+          <p class="cookie__content-text">
+            Мы заботимся о ваших данных и используем файлы cookie. Используя этот сайт, вы принимаете политику
+            использования файлов cookie. <a href="#">Узнать больше</a>
+          </p>
+          <a class="cookie__content-btn" href="#">
+            Принять
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="overlay overlay--hidden overlay--basket">
+      <div class="basket">
+        <div class="basket--full">
+          <div class="basket__heading">
+            <div class="basket__titles">
+              <h3 class="basket__title">
+                Корзина <span>10 шт.</span>
+              </h3>
+              <h4 class="basket__subtitle">
+                Доступен только самовывоз
+              </h4>
+            </div>
+            <div class="basket__heading-btns">
+              <a class="basket__trash-btn" href="#">
+                <img src="images/icons/trash-icon.svg" alt="remove">
+              </a>
+              <a class="basket__btn-close" href="#">
+                <img src="images/icons/btn-x--basket.svg" alt="close">
+              </a>
+
+            </div>
+          </div>
+          <div class="basket__content">
+            <div class="basket__content-item">
+              <a class="basket__item-btn--remove" href="#">
+                <img src="images/icons/btn-x--basket.svg" alt="delete">
+              </a>
+              <a class="basket__item-btn--remove basket__item-btn--more" href="#">
+                <img src="images/icons/dots-icon.svg" alt="more-icon">
+              </a>
+              <div class="basket__item-imgs">
+                <img class="basket__item-img" src="images/pop-ups/5.png" alt="basket-item-img">
+              </div>
+              <div class="basket__item-descr">
+                <div class="basket__text-wrapper">
+                  <h3 class="basket__descr-title">
+                    KEVIN.MURPHY repair-me
+                  </h3>
+                  <p class="basket__descr-text">
+                    РЕКОНСТРУИРУЮЩИЙ И УКРЕПЛЯЮЩИЙ КОНДИЦИОНЕР ДЛЯ ВОЛОС
+                  </p>
+                </div>
+                <div class="basket__price">
+                  <p class="basket__price-num">
+                    <span> 5 030 ₽</span>4 527 ₽
+                  </p>
+                  <div class="basket__quantity-btns basket__quantity-btns--desctop">
+                    <a class="basket__quantity-btn basket__quantity-btn--plus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M7 14L21 14" stroke="black" stroke-linecap="round" />
+                        <path d="M14.043 21L14.043 7" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                    <p class="basket__quantity-num">
+                      1
+                    </p>
+                    <a class="basket__quantity-btn basket__quantity-btn--minus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M8 14L20 14" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__content-item">
+              <a class="basket__item-btn--remove" href="#">
+                <img src="images/icons/btn-x--basket.svg" alt="delete">
+              </a>
+              <a class="basket__item-btn--remove basket__item-btn--more" href="#">
+                <img src="images/icons/dots-icon.svg" alt="more-icon">
+              </a>
+              <div class="basket__item-imgs">
+                <img class="basket__item-img" src="images/pop-ups/5.png" alt="basket-item-img">
+              </div>
+              <div class="basket__item-descr">
+                <div class="basket__text-wrapper">
+                  <h3 class="basket__descr-title">
+                    KEVIN.MURPHY repair-me
+                  </h3>
+                  <p class="basket__descr-text">
+                    РЕКОНСТРУИРУЮЩИЙ И УКРЕПЛЯЮЩИЙ КОНДИЦИОНЕР ДЛЯ ВОЛОС
+                  </p>
+                </div>
+                <div class="basket__price">
+                  <p class="basket__price-num">
+                    <span> 5 030 ₽</span>4 527 ₽
+                  </p>
+                  <div class="basket__quantity-btns basket__quantity-btns--desctop">
+                    <a class="basket__quantity-btn basket__quantity-btn--plus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M7 14L21 14" stroke="black" stroke-linecap="round" />
+                        <path d="M14.043 21L14.043 7" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                    <p class="basket__quantity-num">
+                      1
+                    </p>
+                    <a class="basket__quantity-btn basket__quantity-btn--minus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M8 14L20 14" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__content-item">
+              <a class="basket__item-btn--remove" href="#">
+                <img src="images/icons/btn-x--basket.svg" alt="delete">
+              </a>
+              <a class="basket__item-btn--remove basket__item-btn--more" href="#">
+                <img src="images/icons/dots-icon.svg" alt="more-icon">
+              </a>
+              <div class="basket__item-imgs">
+                <img class="basket__item-img" src="images/pop-ups/5.png" alt="basket-item-img">
+              </div>
+              <div class="basket__item-descr">
+                <div class="basket__text-wrapper">
+                  <h3 class="basket__descr-title">
+                    KEVIN.MURPHY repair-me
+                  </h3>
+                  <p class="basket__descr-text">
+                    РЕКОНСТРУИРУЮЩИЙ И УКРЕПЛЯЮЩИЙ КОНДИЦИОНЕР ДЛЯ ВОЛОС
+                  </p>
+                </div>
+                <div class="basket__price">
+                  <p class="basket__price-num">
+                    <span> 5 030 ₽</span>4 527 ₽
+                  </p>
+                  <div class="basket__quantity-btns basket__quantity-btns--desctop">
+                    <a class="basket__quantity-btn basket__quantity-btn--plus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M7 14L21 14" stroke="black" stroke-linecap="round" />
+                        <path d="M14.043 21L14.043 7" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                    <p class="basket__quantity-num">
+                      1
+                    </p>
+                    <a class="basket__quantity-btn basket__quantity-btn--minus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M8 14L20 14" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__content-item">
+              <a class="basket__item-btn--remove" href="#">
+                <img src="images/icons/btn-x--basket.svg" alt="delete">
+              </a>
+              <a class="basket__item-btn--remove basket__item-btn--more" href="#">
+                <img src="images/icons/dots-icon.svg" alt="more-icon">
+              </a>
+              <div class="basket__item-imgs">
+                <img class="basket__item-img" src="images/pop-ups/5.png" alt="basket-item-img">
+              </div>
+              <div class="basket__item-descr">
+                <div class="basket__text-wrapper">
+                  <h3 class="basket__descr-title">
+                    KEVIN.MURPHY repair-me
+                  </h3>
+                  <p class="basket__descr-text">
+                    РЕКОНСТРУИРУЮЩИЙ И УКРЕПЛЯЮЩИЙ КОНДИЦИОНЕР ДЛЯ ВОЛОС
+                  </p>
+                </div>
+                <div class="basket__price">
+                  <p class="basket__price-num">
+                    <span> 5 030 ₽</span>4 527 ₽
+                  </p>
+                  <div class="basket__quantity-btns basket__quantity-btns--desctop">
+                    <a class="basket__quantity-btn basket__quantity-btn--plus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M7 14L21 14" stroke="black" stroke-linecap="round" />
+                        <path d="M14.043 21L14.043 7" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                    <p class="basket__quantity-num">
+                      1
+                    </p>
+                    <a class="basket__quantity-btn basket__quantity-btn--minus" href="#">
+                      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                        <path d="M8 14L20 14" stroke="black" stroke-linecap="round" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="basket__total">
+            <div class="basket__total-item">
+              <p class="basket__total-text">
+                сумма
+              </p>
+              <p class="basket__total-num">
+                4 800 р
+              </p>
+            </div>
+            <div class="basket__total-item">
+              <p class="basket__total-text">
+                скидка
+              </p>
+              <p class="basket__total-num">
+                1 000 р
+              </p>
+            </div>
+            <div class="basket__label-wrapper">
+              <label class="basket__label">
+                <input class="basket__input" type="text" placeholder="Введите промокод" required>
+              </label>
+              <label class="basket__label basket__label--second">
+                <button class="basket__input-submit">
+                  <svg width="46" height="8" viewBox="0 0 46 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M45.353 4.35355C45.5483 4.15829 45.5483 3.84171 45.353 3.64645L42.171 0.464466C41.9758 0.269204 41.6592 0.269204 41.4639 0.464466C41.2687 0.659728 41.2687 0.976311 41.4639 1.17157L44.2923 4L41.4639 6.82843C41.2687 7.02369 41.2687 7.34027 41.4639 7.53553C41.6592 7.7308 41.9758 7.7308 42.171 7.53553L45.353 4.35355ZM0.738281 4.5H44.9995V3.5H0.738281V4.5Z"
+                      fill="#841A10" />
+                  </svg>
+                </button>
+              </label>
+            </div>
+            <div class="basket__total-item">
+              <p class="basket__total-text">
+                итого:
+              </p>
+              <p class="basket__total-num">
+                3 800 р
+              </p>
+            </div>
+            <a class="basket__total-btn" href="payment-page.html">
+              Перейти к оформлению заказа
+            </a>
+            <div class="basket__copy-wrapper">
+              <a class="basket__copy-link" href="#">
+                Намекнуть на подарок ❤
+              </a>
+              <p class="basket__copy-link--text">
+                Ссылка на корзину скопирована в буфер обмена
+              </p>
+              <div class="basket__copy-info">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.9167 15.75H13.0833V9.33333H11.9167V15.75ZM12.5 7.67317C12.7038 7.67317 12.8745 7.60433 13.0122 7.46667C13.1498 7.329 13.2183 7.15828 13.2175 6.9545C13.2167 6.75072 13.1479 6.58039 13.011 6.4435C12.8741 6.30661 12.7038 6.23778 12.5 6.237C12.2962 6.23622 12.1259 6.30505 11.989 6.4435C11.8521 6.58194 11.7833 6.75267 11.7825 6.95567C11.7817 7.15867 11.8506 7.329 11.989 7.46667C12.1274 7.60433 12.2978 7.67317 12.5 7.67317ZM12.5035 21C11.0514 21 9.68639 20.7247 8.4085 20.174C7.13061 19.6226 6.01878 18.8743 5.073 17.9293C4.12722 16.9843 3.37861 15.8737 2.82717 14.5973C2.27572 13.321 2 11.9564 2 10.5035C2 9.05061 2.27572 7.68561 2.82717 6.4085C3.37783 5.13061 4.12489 4.01878 5.06833 3.073C6.01178 2.12722 7.12283 1.37861 8.4015 0.827167C9.68017 0.275722 11.0452 0 12.4965 0C13.9478 0 15.3128 0.275722 16.5915 0.827167C17.8694 1.37783 18.9812 2.12528 19.927 3.0695C20.8728 4.01372 21.6214 5.12478 22.1728 6.40267C22.7243 7.68055 23 9.04517 23 10.4965C23 11.9478 22.7247 13.3128 22.174 14.5915C21.6233 15.8702 20.8751 16.982 19.9293 17.927C18.9836 18.872 17.8729 19.6206 16.5973 20.1728C15.3218 20.7251 13.9572 21.0008 12.5035 21ZM12.5 19.8333C15.1056 19.8333 17.3125 18.9292 19.1208 17.1208C20.9292 15.3125 21.8333 13.1056 21.8333 10.5C21.8333 7.89444 20.9292 5.6875 19.1208 3.87917C17.3125 2.07083 15.1056 1.16667 12.5 1.16667C9.89444 1.16667 7.6875 2.07083 5.87917 3.87917C4.07083 5.6875 3.16667 7.89444 3.16667 10.5C3.16667 13.1056 4.07083 15.3125 5.87917 17.1208C7.6875 18.9292 9.89444 19.8333 12.5 19.8333Z"
+                    fill="#949494" />
+                </svg>
+                <p class="basket__copy-text">
+                  Нажав на “Намекнуть на подарок”, скопируется ссылка на вашу корзину <br>с выбранными вами товарами.
+                  <br><br>Таким образом вы легко сможете рассказать о ваших пожеланиях близким!
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="basket--empty" style="display: none;">
+          <div class="basket__heading-btns">
+            <a class="basket__btn-close" href="#">
+              <img src="images/icons/btn-x--basket.svg" alt="close">
+            </a>
+          </div>
+          <div class="basket__empty-titles">
+            <h3 class="basket__empty-title">
+              В корзине ничего нет...
+            </h3>
+            <h4 class="basket__empty-subtitle">
+              посмотрите наши <a href="catalog-page.html">новинки</a> или <a href="/">вернитесь на главную</a> 
+            </h4>
+            <h4 class="basket__items-title">
+              популярные товары
+            </h4>
+          </div>
+          <div class="basket__empty-items">
+            <div class="products__content-card">
+              <div class="products__img-box">
+                <div class="products__img-swiper swiper-container">
+                  <div class="products__swiper-wrapper swiper-wrapper">
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__swiper-pagination swiper-pagination"></div>
+                </div>
+                <div class="products__card-btns">
+                  <a class="products__card-btn basket-button--add" href="#">
+                    <img class="products__btn-img" src="images/icons/basket-icon-white.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="products__descr">
+                <h2 class="products__descr-title">
+                  Увлажняющий крем для тела и лица
+                </h2>
+                <a class="products__descr-name" href="product-page.html">
+                  Herba Sense <span>AVOCADO COCONUT</span>
+                </a>
+                <p class="products__descr-price">
+                  <span>578 ₽</span>433 ₽
+                </p>
+              </div>
+            </div>
+            <div class="products__content-card">
+              <div class="products__img-box">
+                <div class="products__img-swiper swiper-container">
+                  <div class="products__swiper-wrapper swiper-wrapper">
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__swiper-pagination swiper-pagination"></div>
+                </div>
+                <div class="products__card-btns">
+                  <a class="products__card-btn basket-button--add" href="#">
+                    <img class="products__btn-img" src="images/icons/basket-icon-white.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="products__descr">
+                <h2 class="products__descr-title">
+                  Увлажняющий крем для тела и лица
+                </h2>
+                <a class="products__descr-name" href="product-page.html">
+                  Herba Sense <span>AVOCADO COCONUT</span>
+                </a>
+                <p class="products__descr-price">
+                  <span>578 ₽</span>433 ₽
+                </p>
+              </div>
+            </div>
+            <div class="products__content-card">
+              <div class="products__img-box">
+                <div class="products__img-swiper swiper-container">
+                  <div class="products__swiper-wrapper swiper-wrapper">
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                    <div class="products__swiper-slide swiper-slide">
+                      <div class="products__slide-imgs">
+                        <img class="products__card-img" src="images/products/product-img.jpg" loading="lazy"
+                          alt="product-img">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="products__swiper-pagination swiper-pagination"></div>
+                </div>
+                <div class="products__card-btns">
+                  <a class="products__card-btn basket-button--add" href="#">
+                    <img class="products__btn-img" src="images/icons/basket-icon-white.svg" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="products__descr">
+                <h2 class="products__descr-title">
+                  Увлажняющий крем для тела и лица
+                </h2>
+                <a class="products__descr-name" href="product-page.html">
+                  Herba Sense <span>AVOCADO COCONUT</span>
+                </a>
+                <p class="products__descr-price">
+                  <span>578 ₽</span>433 ₽
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="basket__inner-overlay basket__inner-overlay--hidden">
+        <div class="basket__inner-wrapper">
+          <div class="basket__inner-heading">
+            <h3 class="basket__inner-title">
+              Изменить <br>
+              количество
+            </h3>
+            <div class="basket__quantity-btns basket__quantity-btns--mob">
+              <a class="basket__quantity-btn basket__quantity-btn--plus" href="#">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                  <path d="M7 14L21 14" stroke="black" stroke-linecap="round" />
+                  <path d="M14.043 21L14.043 7" stroke="black" stroke-linecap="round" />
+                </svg>
+              </a>
+              <p class="basket__quantity-num">
+                1
+              </p>
+              <a class="basket__quantity-btn basket__quantity-btn--minus" href="#">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="28" height="28" rx="14" fill="#EBEBEB" />
+                  <path d="M8 14L20 14" stroke="black" stroke-linecap="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <a class="basket__inner-remove" href="#">
+            удалить из корзины
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__row">
+        <div class="header__row">
+          <div class="container">
+            <div class="header__row-inner">
+              <ul class="header__row-list">
+                <li class="header__row-item">
+                  <a class="header__row-link" href="#">
+                    INTRODUCING THE NEUSTROM FACIAL
+                  </a>
+                </li>
+                <li class="header__row-item">
+                  <a class="header__row-link" href="#">
+                    Our very first facial collab with the one and only Brett Neustrom!
+                  </a>
+                </li>
+                <li class="header__row-item">
+                  <a class="header__row-link" href="#">
+                    INTRODUCING THE NEUSTROM FACIAL
+                  </a>
+                </li>
+                <li class="header__row-item">
+                  <a class="header__row-link" href="#">
+                    Our very first facial collab with the one and only Brett Neustrom!
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <ul class="header__top-list">
+              <li class="header__top-item">
+                <a class="header__burger-link" href="#">
+                  <img class="header__burger-icon" src="images/icons/burger-icon.svg" alt="burger-icon">
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a class="header__logo-link" href="/">
+                  <img class="header__logo-icon" src="images/icons/logo-red.svg" alt="logo">
+                </a>
+              </li>
+              <li class="header__top-item">
+                <a class="header__basket-link" href="#">
+                  <img class="header__basket-icon" src="images/icons/basket-icon.svg" alt="basket-icon">
+                  <span class="header__basket-num">1</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header__page">
+        <div class="container">
+          <div class="header__page-inner">
+            <h1 class="header__page-title title--page">
+              новостной блог
+            </h1>
+            <div class="header__page-imgs">
+              <img class="header__page-img" src="images/header-img/1.jpg" alt="header-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="blog">
+        <div class="container">
+          <div class="blog__inner">
+            <div class="blog__heading heading">
+              <p class="blog-text heading-text--red">
+                \новости\
+              </p>
+              <div class="heading__title-wrapper">
+                <h2 class="blog__heading-title heading-title--red">
+                  Новостной блог
+                </h2>
+                <h3 class="blog__heading-subtitle heading-subtitle--red">
+                  twins beauty house
+                </h3>
+              </div>
+            </div>
+            <div class="blog__content">
+              <ul class="blog__btn-list">
+                <li class="blog__list-item">
+                  <button class="blog__item-link blog__item-link--close" data-filter="all" type="button">
+                    <img class="blog__item-icon" src="images/icons/btn-x--sort.svg" alt="close">
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".makeup" type="button">
+                    макияж
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".manicure" type="button">
+                    МАНИКЮР
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".twins-news" type="button">
+                    TWINS NEWS
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".the-twins" type="button">
+                    THE TWINS
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".trends" type="button">
+                    ТРЕНДЫ
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".advices" type="button">
+                    СОВЕТЫ ОТ ЭКСПЕРТОВ
+                  </button>
+                </li>
+                <li class="blog__list-item">
+                  <button class="blog__item-link" data-filter=".tutorials" type="button">
+                    туториалы
+                  </button>
+                </li>
+              </ul>
+              <div class="news__content news__content--page">
+                <div class="mix news__content-item makeup">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/1.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <a>
+                    <div class="news__item-descr">
+                      <h3 class="news__descr-title">
+                        <span>BEAUTY</span>естественность и минимализм - главные тренды последнего времени
+                      </h3>
+                      <p class="news__descr-text">
+                        максимально тонкое покрытие nude на ногтях поможет создать тот самый эффект «невидимого»
+                        маникюра
+                        🤍
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="mix news__content-item manicure">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mix news__content-item twins-news  ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+                <div class="mix news__content-item twins-news  ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+                <div class="mix news__content-item twins-news  ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mix news__content-item the-twins">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/1.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <a>
+                    <div class="news__item-descr">
+                      <h3 class="news__descr-title">
+                        <span>BEAUTY</span>естественность и минимализм - главные тренды последнего времени
+                      </h3>
+                      <p class="news__descr-text">
+                        максимально тонкое покрытие nude на ногтях поможет создать тот самый эффект «невидимого»
+                        маникюра
+                        🤍
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="mix news__content-item trends">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mix news__content-item advices ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+                <div class="mix news__content-item advices  ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+                <div class="mix news__content-item advices  ">
+                  <a class="news__img-link" href="blog-single-page.html">
+                    <div class="news__img-box">
+                      <img class="news__img" loading="lazy" src="images/blog/2.jpg" alt="news-image">
+                    </div>
+                  </a>
+                  <div class="news__item-descr">
+                    <h3 class="news__descr-title">
+                      <span>SALE </span>идеально ровный сияющий тон лица, минимум макияжа глаз...
+                    </h3>
+                    <p class="news__descr-text">
+                      и акцентные красные губы сейчас на пике популярности и такой образ будет совершенно точно
+                      смотреться
+                      дорого и гармонично на каждой девушке🤌🏻
+                    </p>
+                  </div>
+                </div>
+
+                <div class="custom-cursor" id="customCursor">узнать подробнее</div>
+              </div>
+              <div class="blog__content-pagination">
+                <ul class="blog__pagination-list">
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      <img class="blog__pagination-icon" src="images/icons/pagination-arrow-gray.svg" alt="prev">
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item ">
+                    <a class="blog__pagination-link blog__pagination-link--active" href="#">
+                      1
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      2
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      ...
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      9
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      10
+                    </a>
+                  </li>
+                  <li class="blog__pagination-item">
+                    <a class="blog__pagination-link" href="#">
+                      <img class="blog__pagination-icon" src="images/icons/pagination-arrow-red.svg" alt="next">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <nav class="footer__nav">
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <h3 class="footer__nav-title">
+                    Главная
+                  </h3>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#about">
+                    О бренде
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#price">
+                    Услуги
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#products">
+                    Продукция
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#stock">
+                    Акции
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#reviews">
+                    Отзывы
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#adress">
+                    Контакты
+                  </a>
+                </li>
+              </ul>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <h3 class="footer__nav-title">
+                    УСЛУГИ:
+                  </h3>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Все услуги
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Макияж
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Маникюр
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Массаж
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Брови
+                  </a>
+                </li>
+              </ul>
+              <ul class="footer__nav-list">
+                <li class="footer__nav-item">
+                  <h3 class="footer__nav-title">
+                    ПРОДУКЦИЯ:
+                  </h3>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Новинки
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Вся продукция
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Шампуни
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Спреи
+                  </a>
+                </li>
+                <li class="footer__nav-item">
+                  <a class="footer__nav-link" href="#">
+                    Кондиционеры
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__newsletter-wrapper">
+              <h2 class="footer__newsletter-title">
+                подпишитесь на наши обновления
+              </h2>
+              <form class="footer__newsletter-form">
+                <div class="footer__label-wrapper">
+                  <label class="footer__form-label footer__form-label--first">
+                    <input class="footer__form-input" type="email" placeholder="Ваш email">
+                  </label>
+                  <label class="footer__form-label">
+                    <button class="footer__form-submit" type="submit">
+                      подписаться
+                    </button>
+                  </label>
+                </div>
+                <p class="footer__form-text">
+                  Нажимая кнопку “Отправить” Вы соглашаетесь с<a href="privacy-policy.html"> политикой
+                    конфиденциальности</a> и даёте
+                  разрешение на
+                  <a href="privacy-policy.html"> обработку персональных данных</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="footer__row">
+            <div class="footer__row-wrapper">
+              <div class="footer__socials">
+                <ul class="footer__socials-list">
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <img class="footer__socials-icon" src="images/icons/tg-icon-white.svg" alt="telegram-icon">
+                    </a>
+                  </li>
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <img class="footer__socials-icon" src="images/icons/wa-icon-white.svg" alt="whatsapp-icon">
+                    </a>
+                  </li>
+                  <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="#">
+                      <img class="footer__socials-icon" src="images/icons/inst-icon-white.svg" alt="instagram-icon">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__newsletter-links">
+                <a class="footer__newsletter-link" href="privacy-policy.html">
+                  Договор оферты
+                </a>
+                <a class="footer__newsletter-link" href="privacy-policy.html">
+                  Политика конфиденциальности
+                </a>
+              </div>
+            </div>
+            <div class="footer__rights">
+              <p>
+                ©Twins beauty house 2024. Все права защищены
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

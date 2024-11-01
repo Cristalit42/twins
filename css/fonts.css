@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url("../fonts/arial.eot") format("eot"),
+    url("../fonts/arial.woff") format("woff"),
+    url("../fonts/arial.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url("../fonts/segoe-ui.eot") format("eot"),
+    url("../fonts/segoe-ui.woff") format("woff"),
+    url("../fonts/segoe-ui.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bebas Neue Cyrillic";
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url("../fonts/bebasNeue.eot") format("eot"),
+    url("../fonts/bebasNeue.woff") format("woff"),
+    url("../fonts/bebasNeue.woff2") format("woff2");
+  font-display: swap;
+}
